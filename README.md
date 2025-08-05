@@ -11,3 +11,9 @@ The process includes:
   2. Who are the most valuable customer ?
   3. Which product category performed the best ?
 - **Visualization** using Tableau interactive dashboard for easier interpretation and communication insights
+
+📂 Raw dataset can be downloaded [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/1.RAW_DATASET).  
+🧼 Data cleaning was performed using SQL queries. The cleaned dataset is available [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/2.DATA%20CLEANING).  
+🔍 Exploratory Data Analysis (EDA) SQL scripts can be found [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/3.EDA).  
+📊 Comprehensive business analysis, including sales performance, top customers, and best-selling categories, is documented [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/4.BUSINESS%20ANALYSIS).  
+📈 Interactive Tableau dashboard is accessible [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORES_DASHBOARD_PERFORMANCE/DASHBOARDPERFORMANCE).  
