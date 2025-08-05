@@ -17,3 +17,13 @@ The process includes:
 🔍 Exploratory Data Analysis (EDA) SQL scripts can be found [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/3.EDA).  
 📊 Comprehensive business analysis, including sales performance, top customers, and best-selling categories, is documented [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/4.BUSINESS%20ANALYSIS).  
 📈 Interactive Tableau dashboard is accessible [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORES_DASHBOARD_PERFORMANCE/DASHBOARDPERFORMANCE).  
+
+# Data Sample & Structure
+Retail store dataset structure as seen below consists 9 field such as transaction id, customer id, category, item, price per unit, quantity, total spent, payment method, location, and transaction date. With total row count of 11.971 records (clean zero null).  
+
+ 
+<img width="882" height="168" alt="Screenshot 2025-08-05 at 09 56 01" src="https://github.com/user-attachments/assets/424eb6f7-a7e5-417b-b191-1d6bfed3bcac" />  
+<br>
+<br>
+<img width="189" height="279" alt="Screenshot 2025-08-05 at 09 56 56" src="https://github.com/user-attachments/assets/026268af-4337-4080-b17e-1c6977bbee18" />
+
