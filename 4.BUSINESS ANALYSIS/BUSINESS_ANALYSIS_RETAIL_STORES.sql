@@ -7,7 +7,7 @@
 -- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 -- 1.1 Bagaimana tren revenue per tahun ?
 SELECT 
-	DATE_FORMAT(`Transaction Date`, '%Y') AS 'Tahun',
+    DATE_FORMAT(`Transaction Date`, '%Y') AS 'Tahun',
     ROUND(SUM(`Total Spent`), 0) AS 'Revenue',
     COUNT(*) AS 'Jumlah Transaksi',
     ROUND(AVG(`Total Spent`), 2) AS 'AOV'
@@ -26,7 +26,7 @@ ORDER BY 1 ASC;
 
 -- 1.2 Lalu bagaimana tren revenue per bulan untuk tahun 2024 ? (tahun dengan revenue terbanyak) 
 SELECT 
-	CONCAT(DATE_FORMAT(`Transaction Date`, '%m'), ' ', MONTHNAME(`Transaction Date`)) AS 'Bulan',
+    CONCAT(DATE_FORMAT(`Transaction Date`, '%m'), ' ', MONTHNAME(`Transaction Date`)) AS 'Bulan',
     ROUND(SUM(`Total Spent`), 0) AS 'Revenue',
     COUNT(*) AS 'Jumlah Transaksi',
     ROUND(AVG(`Total Spent`), 2) AS 'AOV'
@@ -35,7 +35,7 @@ WHERE YEAR(`Transaction Date`) = '2024%'
 GROUP BY 1
 ORDER BY 1 ASC;
 -- Insights: 
--- Desemeber menjadi bulan dengan revenue tertinggi sebesar $48.467 dengan 357 transaksi.
+-- Desember menjadi bulan dengan revenue tertinggi sebesar $48.467 dengan 357 transaksi.
 -- Diikuti Januari ($47.909) dengan 363 transaksi
 -- Desember menjadi yang tertinggi karena AOV-nya lebih besar dibanding Januari, walaupun Januari punya lebih banyak transaksi
 -- AOV tertinggi jatuh di bulan April (most efficient month) 
@@ -70,7 +70,7 @@ SELECT
     ROUND(SUM(`Total Spent`), 0) AS 'Revenue',
     ROUND(AVG(`Total Spent`), 2) AS 'AOV',
     COUNT(*) AS 'Jumlah Transaksi',
-	ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM clean_dataset), 2) AS 'Persentase'
+    ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM clean_dataset), 2) AS 'Persentase'
 FROM clean_dataset
 GROUP BY 1
 ORDER BY 2 DESC;
@@ -86,7 +86,7 @@ SELECT
     ROUND(SUM(`Total Spent`), 0) AS 'Revenue',
     ROUND(AVG(`Total Spent`), 2) AS 'AOV',
     COUNT(*) AS 'Jumlah Transaksi',
-	ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM clean_dataset), 2) AS 'Persentase'
+    ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM clean_dataset), 2) AS 'Persentase'
 FROM clean_dataset
 GROUP BY 1
 ORDER BY 2 DESC;
