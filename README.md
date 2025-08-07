@@ -55,6 +55,9 @@ Although January had more transactions, December outperformed due to a higher Av
 
 - Monday shows low transaction volume and lower AOV purchases: Consider implementing bundle promotions or special offers to drive engagement and increase revenue at the start of the week.
 
+#
+Full version analysis click [here](https://drive.google.com/file/d/1joZ9a7jdKTG1HdXOXTFlIS0zypUX51YF/view?usp=sharing)
+
 
 
 
