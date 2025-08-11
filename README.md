@@ -16,7 +16,7 @@ The process includes:
 🧼 Data cleaning was performed using SQL queries. The cleaned dataset is available [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/2.DATA%20CLEANING).  
 🔍 Exploratory Data Analysis (EDA) SQL scripts can be found [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/3.EDA).  
 📊 Comprehensive business analysis, including sales performance, top customers, and best-selling categories, is documented [here](https://github.com/MOZKI/RETAIL-STORES-ANALYSIS/tree/main/4.BUSINESS%20ANALYSIS).  
-📈 Interactive Tableau dashboard is accessible [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORES_DASHBOARD_PERFORMANCE/DASHBOARDPERFORMANCE)
+📈 Interactive Tableau dashboard is accessible [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORE_DASHBOARD/DASHBOARDPERFORMANCE)
 
 # Data Sample & Structure
 Retail store dataset structure as seen below consists 9 field such as transaction id, customer id, category, item, price per unit, quantity, total spent, payment method, location, and transaction date. With total row count of 11.971 records (clean zero null).  
@@ -32,7 +32,7 @@ Overview of Insights
 There was a decline in growth rate in 2023 by -3.7% compared to 2022. However, the business recovered well in 2024, showing a 6.8% increase in growth rate from the previous year.
 The main factor of revenue growth in 2024 was the increase in number of transactions, which rose by 228 transactions, while the Average Order Value (AOV) remained relatively stable.
 2024 recorded the highest annual revenue of $524,881, with a total of 4,036 transactions.   
-Below is the overview page from Tableau. The entire interactive dashboard can be found [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORES_DASHBOARD_PERFORMANCE/DASHBOARDPERFORMANCE)  
+Below is the overview page from Tableau. The entire interactive dashboard can be found [here](https://public.tableau.com/app/profile/moh.zaki/viz/RETAIL_STORE_DASHBOARD/DASHBOARDPERFORMANCE)
 
 <img width="1216" height="513" alt="Screenshot 2025-08-05 at 18 43 28" src="https://github.com/user-attachments/assets/71e39e27-14f6-4f33-8abe-18fe1fde268c" />  
 
